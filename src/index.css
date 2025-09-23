@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Main Background */
+.bg-custombase {
+  background-color: rgb(0, 0, 0);
+  background-image: 
+    radial-gradient(at 80% 0%, rgb(80, 24, 193) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, rgb(40, 16, 113) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(260, 52%, 44%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, rgb(38, 37, 86) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, rgb(69, 42, 90) 0px, transparent 50%);
+  
+  animation: moveGradient 15s ease infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Navbar */
+.bg-nav {
+  background-color: rgb(48, 32, 60);
+  background-image:
+    radial-gradient(at 92% 95%, hsla(258,44%,42%,1) 0px, transparent 50%),
+    radial-gradient(at 97% 25%, rgb(33, 16, 70) 0px, transparent 50%),
+    radial-gradient(at 35% 96%, rgb(93, 33, 74) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(264,26%,45%,1) 0px, transparent 50%);
+  background-size: 200% 200%;
+  animation: moveGradient 15s ease infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Details Box located in the Home.jsx */
+.detailsbox {
+  animation: gradient-move 1s ease infinite;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Navbar animation located in the Home.jsx */
+.navbarmove {
+  background-size: 200% 200%;
+  animation: gradientMove 3s ease infinite;
+}

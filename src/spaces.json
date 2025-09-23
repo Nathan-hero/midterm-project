@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "name": "The Study Nook",
+    "location": "Quezon City",
+    "price": 300,
+    "main_image": "/public/image/studynook.jpg",
+    "images": ["/public/image/studynook.jpg"],
+    "description": "A quiet and cozy space perfect for deep focus sessions. Equipped with soundproof pods and an extensive library for a productive day.",
+    "amenities": [
+      "High-speed Wi-Fi",
+      "Free Coffee & Tea",
+      "Power Outlets at every seat",
+      "Air-conditioned",
+      "Printing Services"
+    ],
+    "hours": "9:00 AM - 9:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"]
+  },
+  {
+    "id": 2,
+    "name": "WorkHaven Makati",
+    "location": "Makati City",
+    "price": 500,
+    "main_image": "/public/image/WorkHaven.jpeg",
+    "images": ["/public/image/WorkHaven.jpeg"],
+    "description": "A professional co-working environment in the heart of the business district. Ideal for meetings, collaborations, and networking.",
+    "amenities": [
+      "Fiber Internet",
+      "Meeting Rooms",
+      "Gourmet Pantry",
+      "24/7 Access",
+      "Ergonomic Chairs"
+    ],
+    "hours": "Open 24/7",
+    "time_slots": ["Full Day Pass", "Night Owl Pass (9pm-6am)"]
+  },
+  {
+    "id": 3,
+    "name": "Cebu Creative Hub",
+    "location": "Cebu City",
+    "price": 250,
+    "main_image": "/public/image/CebuCity.avif",
+    "images": ["/public/image/CebuCity.avif"],
+    "description": "A vibrant and artistic space designed to foster creativity and collaboration among Cebu's digital nomads and artists.",
+    "amenities": [
+      "Community Events",
+      "Art Supplies",
+      "Fast Wi-Fi",
+      "Pet-friendly",
+      "Outdoor Garden"
+    ],
+    "hours": "10:00 AM - 7:00 PM",
+    "time_slots": ["Morning Session (10am-2pm)", "Afternoon Session (2pm-6pm)"]
+  },
+  {
+    "id": 4,
+    "name": "Our Zone Study Hub",
+    "location": "Davao City",
+    "price": 200,
+    "main_image": "/public/image/OurZone.webp",
+    "images": ["/public/image/OurZone.webp"],
+    "description": "A modern workspace in Davao offering a blend of comfort and technology for freelancers and remote workers.",
+    "amenities": [
+      "High-speed Internet",
+      "Comfortable Seating",
+      "Quiet workspace",
+      "Cozy ambience"
+    ],
+    "hours": "9:00 AM - 9:00 PM",
+    "time_slots": ["9am - 12pm", "12pm - 4pm", "4pm - 9pm"]
+  },
+  {
+    "id": 5,
+    "name": "EPro Coworking Space and Study Hub",
+    "location": "Baguio City",
+    "price": 350,
+    "main_image": "/public/image/EPro.webp",
+    "images": ["/public/image/EPro.webp"],
+    "description": "EPro Coworking Space and Study Hub the provides you the space for work and study in a dynamic, collaborative, and inspiring environment. ✅Serene Study Environment: Say goodbye to distractions and hello to focus! Our study area is designed to provide you with a peaceful atmosphere where you can concentrate on your work or studies. ✅Flexible Workspaces: Whether you need a dedicated desk, a cozy corner, a private office, or a venue for your conference, we have the perfect space to suit your needs. 🌆 Prime Location: Conveniently located in the heart of the city, with easy access to public transportation and nearby amenities. 💰 Affordable Rates: Quality doesn't have to come at a premium. Our flexible pricing plans cater to all budgets.",
+    "amenities": [
+      "Printing Services",
+      "Free Coffee",
+      "High-speed Internet",
+      "Flexible hours / Walk-ins"
+    ],
+    "hours": "9:00 AM - 6:00 PM",
+    "time_slots": ["9am - 11am", "11am - 1pm", "1pm - 3pm", "3pm - 5pm", "4pm - 6pm"]
+  },
+  {
+    "id": 6,
+    "name": "Bee's Nest Coworking",
+    "location": "Baguio City",
+    "price": 600,
+    "main_image": "/public/image/Bee.webp",
+    "images": ["/public/image/Bee.webp"],
+    "description": "Welcome to Bee's Nest Coworking, an energetic and dynamic co-working hub nestled in the heart of Baguio City. Our space is meticulously designed to cater to the needs of young entrepreneurs, students, and working professionals who seek a casual, fun, and inviting environment. At Bee's Nest Coworking, we embrace a laid-back and artistic vibe that sets the stage for creativity and collaboration. Immerse yourself in a vibrant atmosphere adorned with colorful artwork, comfortable nooks, and inspiring decor, creating the perfect backdrop for productivity, connection, and relaxation.",
+    "amenities": [
+      "High-speed Wi-Fi",
+      "Cozy ambience",
+      "Free Coffee",
+      "24/7 Access"
+    ],
+    "hours": "Open 24/7",
+    "time_slots": ["Full Day Pass", "Night Owl Pass (9pm-6am)"]
+  },
+  {
+    "id": 7,
+    "name": "Ruined Project?",
+    "location": "Tagaytay City",
+    "price": 500,
+    "main_image": "/public/image/RuinedProject.webp",
+    "images": ["/public/image/RuinedProject.webp"],
+    "description": "Watch as we create something beautiful out of what's ruined at Crosswinds, Tagaytay.",
+    "amenities": [
+      "Food menu",
+      "Comfortable Seating",
+      "High-speed Internet",
+      "Outdoor Work Areas"
+    ],
+    "hours": "8:00 AM - 9:00 PM",
+    "time_slots": ["8am - 11am", "11am - 2pm", "2pm - 5pm", "3pm - 6pm", "6pm - 9pm"]
+  },
+  {
+    "id": 8,
+    "name": "Clark Creative Corner",
+    "location": "Clark Freeport Zone",
+    "price": 300,
+    "main_image": "/public/image/ClarkCreative.jpg",
+    "images": ["/public/image/ClarkCreative.jpg"],
+    "description": "A dynamic co-working space in Clark offering a blend of creativity and professionalism for remote workers and entrepreneurs.",
+    "amenities": [
+      "High-speed Internet",
+      "Meeting Rooms",
+      "Free Coffee & Snacks",
+      "Air-conditioned",
+      "Community Events"
+    ],
+    "hours": "9:00 AM - 9:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"]
+  },
+  {
+    "id": 9,
+    "name": "Subic Bay Work Hub",
+    "location": "Subic Bay Freeport Zone",
+    "price": 300,
+    "main_image": "/public/image/SubicBayWorkHub.jpg",
+    "images": ["/public/image/SubicBayWorkHub.jpg"],
+    "description": "A versatile workspace in Subic Bay, perfect for freelancers and remote teams looking for a productive environment.",
+    "amenities": [
+      "High-speed Wi-Fi",
+      "Comfortable Seating",
+      "Free Snacks & Beverages",
+      "Meeting Rooms"
+    ],
+    "hours": "8:00 AM - 8:00 PM",
+    "time_slots": ["8am - 12pm", "12pm - 4pm", "4pm - 8pm"]
+  },
+  {
+    "id": 10,
+    "name": "Pampanga Productivity Place",
+    "location": "San Fernando, Pampanga",
+    "price": 250,
+    "main_image": "/public/image/PampangaProductivityPlace.jpg",
+    "images": ["/public/image/PampangaProductivityPlace.jpg"],
+    "description": "A modern and efficient workspace in Pampanga designed to enhance productivity for freelancers and remote workers.",
+    "amenities": [
+      "High-speed Internet",
+      "Ergonomic Chairs",
+      "Free Coffee & Tea",
+      "Quiet Zones",
+      "Printing Services"
+    ],
+    "hours": "9:00 AM - 6:00 PM",
+    "time_slots": ["Morning Slot (9am-1pm)", "Afternoon Slot (1pm-5pm)"]
+  }
+]
