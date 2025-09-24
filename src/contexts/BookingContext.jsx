@@ -7,7 +7,6 @@ export function BookingProvider({ children }) {
   const [bookings, setBookings] = useLocalStorage("bookings", []);
 
   const addBooking = (booking) => {
-    // Give each booking a unique id
     const newBooking = { id: Date.now(), ...booking };
     setBookings([...bookings, newBooking]);
   };

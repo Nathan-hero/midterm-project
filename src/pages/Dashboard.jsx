@@ -42,9 +42,10 @@ export default function Dashboard() {
                   <p className="mt-2 text-violet-300">Date: {booking.date}</p>
                   <p className="text-violet-300">Time: {booking.timeSlot}</p>
 
+                  {/* Confirmation Modal */}
                   <button
                     onClick={() => setConfirmIndex(index)}
-                    className="mt-4 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700"
+                    className="mt-4 px-4 py-2 bg-pink-600 text-white rounded-lg hover:bg-red-700"
                   >
                     Cancel Booking
                   </button>
@@ -57,24 +58,25 @@ export default function Dashboard() {
 
       {/* Confirmation Modal */}
       {confirmIndex !== null && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center w-80">
-            <h2 className="text-xl font-bold text-gray-800">
+        <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
+          <div className="bg-gradient-to-r from-purple-900 via-violet-950 to-indigo-950 bg-[length:200%_200%] modalbg
+                p-6 rounded-lg shadow-lg text-center w-80 outline-offset-2 outline-pink-500 outline-2">
+            <h2 className="text-xl font-bold text-gray-200">
               Cancel this booking?
             </h2>
-            <p className="mt-2 text-gray-600">
+            <p className="mt-2 text-gray-300">
               This action cannot be undone.
             </p>
             <div className="mt-4 flex justify-center space-x-4">
               <button
                 onClick={handleCancel}
-                className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700"
+                className="px-4 py-2 bg-pink-500 text-white rounded-lg hover:bg-red-700"
               >
                 Yes
               </button>
               <button
                 onClick={() => setConfirmIndex(null)}
-                className="px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400"
+                className="px-4 py-2 bg-violet-300 rounded-lg hover:bg-purple-400"
               >
                 No
               </button>

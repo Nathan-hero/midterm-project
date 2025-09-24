@@ -46,6 +46,7 @@ export default function BookingForm({ spaceId }) {
             type="date"
             value={date}
             onChange={(e) => setDate(e.target.value)}
+            min={new Date().toLocaleDateString("en-CA")} // Check date if still possible
             className="mt-1 block w-full border border-gray-300 rounded-lg p-2 text-pink-200 bg-violet-950"
           />
         </label>
@@ -74,19 +75,20 @@ export default function BookingForm({ spaceId }) {
           Confirm Booking
         </button>
       </form>
-
+      {/* Success book modal */}
       {showSuccess && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center w-80">
-            <h2 className="text-xl font-bold text-green-600">
+        <div className="fixed inset-0 flex items-center justify-center bg-black/50">
+          <div className="bg-gradient-to-r from-purple-900 via-violet-950 to-indigo-950 bg-[length:200%_200%] modalbg
+                p-6 rounded-lg shadow-lg text-center w-80 outline-offset-2 outline-pink-300 outline-2">
+            <h2 className="text-xl font-bold text-pink-300">
                Successfully Booked!
             </h2>
-            <p className="mt-2 text-gray-700">
+            <p className="mt-2 text-gray-300">
               Your booking has been confirmed.
             </p>
             <button
               onClick={() => setShowSuccess(false)}
-              className="mt-4 px-4 py-2 bg-violet-600 text-white rounded-lg hover:bg-violet-700"
+              className="mt-4 px-4 py-2 bg-violet-300 text-white rounded-lg hover:bg-violet-400"
             >
               OK
             </button>
